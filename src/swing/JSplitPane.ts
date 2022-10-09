@@ -1,7 +1,7 @@
 import {JComponent} from "swing/JComponent"
 
 export enum JSplitPaneDirection {
-  HORIZONTAL_SPLIT = "HORIZONTAL_SPLIT"
+  HORIZONTAL_SPLIT
 }
 
 export class JSplitPane extends JComponent {

@@ -1,5 +1,5 @@
-import {Dimension} from "swing/Dimension"
-import {Point} from "swing/Point"
+import {Dimension} from "awt/Dimension"
+import {Point} from "awt/Point"
 
 export class Rectangle {
 

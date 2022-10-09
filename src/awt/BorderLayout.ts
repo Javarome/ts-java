@@ -1,4 +1,4 @@
-import {LayoutManager} from "swing/LayoutManager"
+import {LayoutManager} from "awt/LayoutManager"
 import {JComponent} from "swing/JComponent"
 
 export class BorderLayout implements LayoutManager {

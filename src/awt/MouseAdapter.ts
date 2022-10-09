@@ -1,4 +1,4 @@
-import {MouseListener} from "swing/MouseListener"
+import {MouseListener} from "awt/MouseListener"
 
 export class MouseAdapter implements MouseListener {
 

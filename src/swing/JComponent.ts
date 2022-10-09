@@ -1,7 +1,7 @@
-import {Font} from "swing/Font"
-import {FocusListener} from "swing/FocusListener"
-import {MouseListener} from "swing/MouseListener"
-import {Color} from "swing/Color"
+import {Font} from "awt/Font"
+import {FocusListener} from "awt/FocusListener"
+import {MouseListener} from "awt/MouseListener"
+import {Color} from "awt/Color"
 
 export class JComponent {
   private font: Font = Font.DEFAULT
