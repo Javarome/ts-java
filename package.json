@@ -1,5 +1,5 @@
 {
-  "name": "ts-java",
+  "name": "ts-jsdk",
   "type": "module",
   "author": "Jérôme Beau",
   "version": "0.1.0",
@@ -7,10 +7,10 @@
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
-  "homepage": "https://github.com/Javarome/ts-java",
+  "homepage": "https://github.com/Javarome/ts-jsdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Javarome/ts-java.git"
+    "url": "https://github.com/Javarome/ts-jsdk.git"
   },
   "scripts": {
     "clean": "rm -Rf dist && rm -Rf node_modules && rm package-lock.json",

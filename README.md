@@ -1,4 +1,4 @@
-# ts-java
+# ts-jsdk
 
 TypeScript implementation of the Java platform.
 
