@@ -26,9 +26,13 @@
     "typescript": "4.8.4"
   },
   "keywords": [
-    "common",
-    "util",
-    "rr0"
+    "java",
+    "typescript",
+    "migration",
+    "sdk",
+    "jsdk",
+    "swing",
+    "awt"
   ],
   "publishConfig": {
     "access": "public"

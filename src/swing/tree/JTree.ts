@@ -7,14 +7,14 @@ import {DefaultTreeCellRenderer} from "swing/tree/DefaultTreeCellRenderer"
 
 export class JTree<T = any> extends JComponent {
 
+  private cellRenderer: TreeCellRenderer = new DefaultTreeCellRenderer()
+
   constructor(private model: TreeModel) {
     super()
   }
 
-  private _cellRenderer: TreeCellRenderer = new DefaultTreeCellRenderer()
-
-  get cellRenderer(): TreeCellRenderer {
-    return this._cellRenderer
+  getCellRenderer(): TreeCellRenderer {
+    return this.cellRenderer
   }
 
   makeVisible(_path: TreePath) {
@@ -35,7 +35,7 @@ export class JTree<T = any> extends JComponent {
   }
 
   setCellRenderer(renderer: TreeCellRenderer) {
-    this._cellRenderer = renderer
+    this.cellRenderer = renderer
   }
 
   getLastSelectedPathComponent(): TreeNode<T> {
