@@ -1,4 +1,4 @@
-import {JSet} from "util/JSet"
+import {JSet} from "./JSet"
 
 export class HashSet<T = any> implements JSet<T> {
   private _set = new Set<T>();

@@ -1,6 +1,6 @@
 export class StringTokenizer {
 
-  private tokens: string[] = []
+  private readonly tokens: string[] = []
   private currentIndex = 0
 
   constructor(str: string, delimiter = " ") {

@@ -1,4 +1,4 @@
-export * from "./tree"
+export * from "./tree/index"
 export {AbstractAction} from "./AbstractAction"
 export {Action} from "./Action"
 export {DefaultComboBoxModel} from "./DefaultComboBoxModel"

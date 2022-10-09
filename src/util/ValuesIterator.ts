@@ -1,4 +1,5 @@
 export class ValuesIterator<T> {
+
   private currentIndex = 0
 
   constructor(private values: T[]) {

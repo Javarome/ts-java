@@ -1,4 +1,4 @@
-import {JMenuItem} from "swing/JMenuItem"
+import {JMenuItem} from "./JMenuItem"
 
 export class JSeparator extends JMenuItem {
 

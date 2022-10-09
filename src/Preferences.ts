@@ -1,5 +1,5 @@
 import * as os from "os"
-import {MacOSPreferences} from "MacOSPreferences"
+import {MacOSPreferences} from "./MacOSPreferences"
 
 export class Preferences {
 

@@ -1,5 +1,5 @@
-import {Calendar} from "util/Calendar"
-import {Locale} from "util/Locale"
+import {Calendar} from "./Calendar"
+import {Locale} from "./Locale"
 
 export class GregorianCalendar extends Calendar {
 

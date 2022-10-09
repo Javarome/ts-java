@@ -1,5 +1,5 @@
-import {MutableTreeNode} from "swing/tree/MutableTreeNode"
-import {TreeNode} from "swing/tree/TreeNode"
+import {MutableTreeNode} from "./MutableTreeNode"
+import {TreeNode} from "./TreeNode"
 
 export class DefaultMutableTreeNode<T = any> implements MutableTreeNode<T> {
 

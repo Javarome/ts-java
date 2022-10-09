@@ -1,4 +1,4 @@
-import {JIterator} from "util/JIterator"
+import {JIterator} from "./JIterator"
 
 export interface JEntry<K = any, V = any> {
   getKey(): K

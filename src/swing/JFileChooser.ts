@@ -1,7 +1,7 @@
-import {FileFilter} from "FileFilter"
-import {JFrame} from "swing/JFrame"
-import {JDialogResult} from "swing/JDialog"
-import {JFile} from "util/JFile"
+import {FileFilter} from "io/FileFilter"
+import {JFrame} from "./JFrame"
+import {JDialogResult} from "./JDialog"
+import {JFile} from "../io/JFile"
 
 export class JFileChooser {
 

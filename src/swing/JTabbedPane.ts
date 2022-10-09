@@ -1,5 +1,5 @@
-import {JComponent} from "swing/JComponent"
-import {JPanel} from "swing/JPanel"
+import {JComponent} from "./JComponent"
+import {JPanel} from "./JPanel"
 
 export class JTabbedPane extends JComponent {
 

@@ -1,5 +1,5 @@
-import {JEntry, JMap} from "util/JMap"
-import {JIterator} from "util/JIterator"
+import {JEntry, JMap} from "./JMap"
+import {JIterator} from "./JIterator"
 
 export class HashMap<K = any, V = any> implements JMap<K, V> {
   readonly _map = new Map<K, V>()

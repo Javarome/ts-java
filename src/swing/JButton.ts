@@ -1,5 +1,5 @@
-import {JComponent} from "./JComponent"
+import {AbstractButton} from "./AbstractButton"
 
-export class JButton extends JComponent {
+export class JButton extends AbstractButton {
 
 }

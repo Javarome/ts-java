@@ -1,4 +1,4 @@
-import {JFile} from "util/JFile"
+import {JFile} from "io/JFile"
 
 export class FileFilter {
 

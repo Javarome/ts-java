@@ -1,7 +1,6 @@
-import {JMenuItem} from "swing/JMenuItem"
-import {JComponent} from "swing/JComponent"
+import {JMenuItem} from "./JMenuItem"
 
-export class JMenu extends JComponent {
+export class JMenu extends JMenuItem {
 
   private items: (JMenuItem | JMenu)[] = []
 

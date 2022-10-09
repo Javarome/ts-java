@@ -1,4 +1,4 @@
-import {JComponent} from "swing/JComponent"
+import {JComponent} from "./JComponent"
 
 export class JLabel extends JComponent {
 

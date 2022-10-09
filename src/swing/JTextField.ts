@@ -1,18 +1,8 @@
-import {JComponent} from "swing/JComponent"
+import {JTextComponent} from "./JTextComponent"
 
-export class JTextField extends JComponent {
-
-  protected value = ""
+export class JTextField extends JTextComponent {
 
   constructor(name: string) {
     super(name)
-  }
-
-  getText(): string {
-    return this.value
-  }
-
-  requestFocusInWindow(): boolean {
-    return true
   }
 }

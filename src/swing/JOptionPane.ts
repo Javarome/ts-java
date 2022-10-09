@@ -1,5 +1,5 @@
-import {JFrame} from "swing/JFrame"
-import {JDialog, JDialogResult} from "swing/JDialog"
+import {JFrame} from "./JFrame"
+import {JDialog, JDialogResult} from "./JDialog"
 
 export enum JOptionPaneMessageType {
   PLAIN_MESSAGE,
