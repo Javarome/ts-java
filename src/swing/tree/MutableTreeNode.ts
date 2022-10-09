@@ -1,4 +1,4 @@
-import {TreeNode} from "swing/tree/TreeNode"
+import {TreeNode} from "./TreeNode"
 
 export interface MutableTreeNode<T = any> extends TreeNode<T> {
 

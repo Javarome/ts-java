@@ -1,6 +1,6 @@
-import {Dimension} from "awt/Dimension"
-import {Point} from "awt/Point"
-import {Container} from "awt/Container"
+import {Dimension} from "./Dimension"
+import {Point} from "./Point"
+import {Container} from "./Container"
 
 export class JWindowEvent {
   static WINDOW_CLOSING = "0"

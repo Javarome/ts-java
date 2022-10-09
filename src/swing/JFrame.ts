@@ -1,6 +1,6 @@
-import {JMenuBar} from "swing/JMenuBar"
-import {JPanel} from "swing/JPanel"
-import {JWindow} from "awt/JWindow"
+import {JMenuBar} from "./JMenuBar"
+import {JPanel} from "./JPanel"
+import {JWindow} from "../awt/JWindow"
 
 export class JFrame extends JWindow {
 

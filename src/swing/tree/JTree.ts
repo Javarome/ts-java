@@ -1,9 +1,9 @@
-import {JComponent} from "swing/JComponent"
-import {TreePath} from "swing/tree/TreePath"
-import {TreeModel} from "swing/tree/TreeModel"
-import {TreeCellRenderer} from "swing/tree/TreeCellRenderer"
-import {TreeNode} from "swing/tree/TreeNode"
-import {DefaultTreeCellRenderer} from "swing/tree/DefaultTreeCellRenderer"
+import {JComponent} from "../JComponent"
+import {TreePath} from "./TreePath"
+import {TreeModel} from "./TreeModel"
+import {TreeCellRenderer} from "./TreeCellRenderer"
+import {TreeNode} from "./TreeNode"
+import {DefaultTreeCellRenderer} from "./DefaultTreeCellRenderer"
 
 export class JTree<T = any> extends JComponent {
 

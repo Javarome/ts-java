@@ -1,6 +1,7 @@
-import {TreeCellRenderer} from "swing/tree/TreeCellRenderer"
+import {TreeCellRenderer} from "./TreeCellRenderer"
 
 export class DefaultTreeCellRenderer implements TreeCellRenderer {
+
   setClosedIcon(_icon: any): void {
   }
 
