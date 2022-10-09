@@ -1,4 +1,4 @@
-import {MouseListener} from "awt/MouseListener"
+import {MouseListener} from "./MouseListener"
 
 export class MouseAdapter implements MouseListener {
 

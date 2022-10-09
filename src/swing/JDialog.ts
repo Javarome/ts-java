@@ -1,5 +1,5 @@
-import {JFrame} from "swing/JFrame"
-import {JWindow} from "awt/JWindow"
+import {JFrame} from "./JFrame"
+import {JWindow} from "../awt/JWindow"
 
 export enum JDialogResult {
   APPROVE_OPTION,

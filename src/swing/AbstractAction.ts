@@ -1,5 +1,5 @@
-import {Action} from "swing/Action"
-import {ActionEvent} from "awt/ActionEvent"
+import {Action} from "./Action"
+import {ActionEvent} from "../awt/event/ActionEvent"
 
 export abstract class AbstractAction implements Action {
 

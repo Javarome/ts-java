@@ -1,6 +1,6 @@
-import {JComboBoxModel} from "swing/JComboBoxModel"
-import {JComponent} from "swing/JComponent"
-import {DefaultComboBoxModel} from "swing/DefaultComboBoxModel"
+import {JComboBoxModel} from "./JComboBoxModel"
+import {JComponent} from "./JComponent"
+import {DefaultComboBoxModel} from "./DefaultComboBoxModel"
 
 export class JComboBox<I = any> extends JComponent {
 

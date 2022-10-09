@@ -1,5 +1,5 @@
-import {JMenu} from "swing/JMenu"
-import {JComponent} from "swing/JComponent"
+import {JMenu} from "./JMenu"
+import {JComponent} from "./JComponent"
 
 export class JPopupMenu extends JMenu {
 

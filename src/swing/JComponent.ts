@@ -1,52 +1,8 @@
-import {Font} from "awt/Font"
-import {FocusListener} from "awt/FocusListener"
-import {MouseListener} from "awt/MouseListener"
-import {Color} from "awt/Color"
+import {Container} from "awt"
 
-export class JComponent {
-  private font: Font = Font.DEFAULT
-  private enabled = true
-  private visible = true
-  private background: Color = Color.GRAY
+export class JComponent extends Container {
 
   constructor(public contents?: any) {
-  }
-
-  setEnabled(b: boolean) {
-    this.enabled = b
-  }
-
-  isEnabled(): boolean {
-    return this.enabled
-  }
-
-  isVisible(): boolean {
-    return this.visible
-  }
-
-  setVisible(value: boolean) {
-    this.visible = value
-  }
-
-  addFocusListener(_listener: FocusListener) {
-
-  }
-
-  addMouseListener(_listener: MouseListener) {
-  }
-
-  validate(): void {
-  }
-
-  getBackground(): Color {
-    return this.background
-  }
-
-  getFont(): Font {
-    return this.font
-  }
-
-  setFont(font: Font) {
-    this.font = font
+    super()
   }
 }

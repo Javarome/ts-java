@@ -1,4 +1,4 @@
-export {ActionEvent} from "./ActionEvent"
+export * from "./event"
 export {BorderLayout} from "./BorderLayout"
 export {Color} from "./Color"
 export {Component} from "./Component"

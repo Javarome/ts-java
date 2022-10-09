@@ -1,4 +1,4 @@
-import {ActionEvent} from "awt/ActionEvent"
+import {ActionEvent} from "../awt/event/ActionEvent"
 
 export interface Action {
   actionPerformed(event: ActionEvent): void

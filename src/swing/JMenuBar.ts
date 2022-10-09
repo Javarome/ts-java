@@ -1,5 +1,5 @@
-import {JComponent} from "swing/JComponent"
-import {JMenu} from "swing/JMenu"
+import {JComponent} from "./JComponent"
+import {JMenu} from "./JMenu"
 
 export class JMenuBar extends JComponent {
 

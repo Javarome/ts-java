@@ -1,6 +1,6 @@
-import {JComponent} from "swing/JComponent"
-import {LayoutManager} from "awt/LayoutManager"
-import {BorderLayout} from "awt/BorderLayout"
+import {JComponent} from "./JComponent"
+import {LayoutManager} from "../awt/LayoutManager"
+import {BorderLayout} from "../awt/BorderLayout"
 
 export class JPanel extends JComponent {
 

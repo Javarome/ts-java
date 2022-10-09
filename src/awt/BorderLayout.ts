@@ -1,5 +1,5 @@
-import {LayoutManager} from "awt/LayoutManager"
-import {JComponent} from "swing/JComponent"
+import {LayoutManager} from "./LayoutManager"
+import {JComponent} from "../swing/JComponent"
 
 export class BorderLayout implements LayoutManager {
   static NORTH = "NORTH"

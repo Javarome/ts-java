@@ -1,5 +1,5 @@
-import {LayoutManager} from "awt/LayoutManager"
-import {JComponent} from "swing/JComponent"
+import {LayoutManager} from "./LayoutManager"
+import {Component} from "./Component"
 
 export enum SpringLayoutDirection {
   EAST = "EAST",
@@ -10,6 +10,7 @@ export enum SpringLayoutDirection {
 
 export class SpringLayout implements LayoutManager {
 
-  putConstraint(_direction: SpringLayoutDirection, _comp: JComponent, _num: number, _dir2: SpringLayoutDirection, _comp2: JComponent): void {
+  putConstraint(_direction: SpringLayoutDirection, _comp: Component, _num: number, _dir2: SpringLayoutDirection,
+                _comp2: Component): void {
   }
 }

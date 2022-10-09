@@ -1,4 +1,4 @@
-import {Component} from "awt/Component"
+import {Component} from "./Component"
 
 export class Container extends Component {
 
@@ -19,5 +19,8 @@ export class Container extends Component {
 
   isEnabled(): boolean {
     return this.enabled
+  }
+
+  validate(): void {
   }
 }

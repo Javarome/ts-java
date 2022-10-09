@@ -1,4 +1,4 @@
-import {JWindow} from "awt/JWindow"
+import {JWindow} from "./JWindow"
 
 export class Frame extends JWindow {
 

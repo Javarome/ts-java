@@ -1,4 +1,4 @@
-import {JComboBoxModel} from "swing/JComboBoxModel"
+import {JComboBoxModel} from "./JComboBoxModel"
 
 export class DefaultComboBoxModel<T = any> implements JComboBoxModel {
 

@@ -1,6 +1,6 @@
-import {Action} from "swing/Action"
-import {ActionEvent} from "awt/ActionEvent"
-import {JComponent} from "swing/JComponent"
+import {Action} from "./Action"
+import {ActionEvent} from "../awt/event/ActionEvent"
+import {JComponent} from "./JComponent"
 
 export class DefaultAction implements Action {
 
