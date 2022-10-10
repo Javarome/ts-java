@@ -1,4 +1,4 @@
-import {Preferences} from "Preferences"
+import {Preferences} from "lang/Preferences"
 
 export class MacOSPreferences extends Preferences {
   constructor(_className: string) {

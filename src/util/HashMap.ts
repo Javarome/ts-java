@@ -1,7 +1,11 @@
-import {JEntry, JMap} from "./JMap"
+import {JEntry} from "./JMap"
 import {JIterator} from "./JIterator"
+import {AbstractMap} from "./AbstractMap"
+import {Serializable} from "../io/Serializable"
+import {Cloneable} from "../lang/Cloneable"
 
-export class HashMap<K = any, V = any> implements JMap<K, V> {
+export class HashMap<K = any, V = any> extends AbstractMap<K, V> implements Serializable, Cloneable {
+
   readonly _map = new Map<K, V>()
 
   entries(): JIterator<JEntry<K, V>> {
@@ -30,5 +34,19 @@ export class HashMap<K = any, V = any> implements JMap<K, V> {
     const existing = this._map.get(key)
     this._map.set(key, value)
     return existing
+  }
+
+  size(): number {
+    return this._map.size
+  }
+
+  isEmpty(): boolean {
+    return this.size() <= 0
+  }
+
+  remove(key: K): V {
+    const previous = this.get(key)
+    this._map.delete(key)
+    return previous
   }
 }

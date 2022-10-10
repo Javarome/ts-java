@@ -13,4 +13,10 @@ export interface JMap<K = any, V = any> {
   get(key: K): V
 
   put(key: K, value: V): V | undefined
+
+  remove(key: K): V
+
+  size(): number
+
+  isEmpty(): boolean
 }
